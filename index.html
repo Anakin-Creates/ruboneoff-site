@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clones – Downloads | ruboneoff.xyz</title>
+<meta name="description" content="Download Clones, an IPTV player for Android phone, Android TV / Shield, and Windows PC.">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" type="image/png" href="clones-logo.png">
+<style>
+  :root {
+    --bg: #0b1630;
+    --card: #12224a;
+    --border: #23396e;
+    --accent: #6ec1ff;
+    --accent-dark: #3a9be8;
+    --text: #e6eefc;
+    --muted: #9fb3d9;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+  }
+  main { width: 100%; max-width: 640px; }
+  .apps { display: flex; flex-direction: column; gap: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  .card img.logo {
+    width: 256px; height: 256px;
+    max-width: 70vw; max-height: 70vw;
+    border-radius: 22%;
+    display: block; margin: 0 auto 16px;
+  }
+  .card h1, .card h2 { margin: 0 0 8px; font-size: 2.2rem; color: var(--accent); }
+  .tagline { margin: 0 0 24px; color: var(--text); font-size: 1.05rem; }
+  .buttons { display: flex; flex-direction: column; gap: 14px; }
+  .btn {
+    display: block;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: #0b1630;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid var(--accent);
+  }
+  .btn:hover, .btn:focus { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+  .btn.secondary { background: transparent; color: var(--accent); }
+  .btn.secondary:hover, .btn.secondary:focus { background: var(--accent); color: #0b1630; }
+  .btn small { display: block; font-weight: 400; font-size: 0.85rem; opacity: 0.8; }
+  .note {
+    margin-top: 22px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+  .note strong { color: var(--text); }
+  .note code { color: var(--accent); background: #0b1630; padding: 1px 6px; border-radius: 4px; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 0.85rem; text-align: center; }
+  @media (min-width: 560px) {
+    .buttons { flex-direction: row; }
+    .buttons .btn { flex: 1; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="apps">
+
+    <!-- App card: Clones. To add another app, copy this <section class="card"> block. -->
+    <section class="card" id="clones">
+      <img class="logo" src="clones-logo.png" alt="Clones logo" width="256" height="256">
+      <h1>Clones</h1>
+      <p class="tagline">IPTV player for Android phone, Android TV / Shield, and Windows PC.</p>
+      <div class="buttons">
+        <a class="btn" href="/Clones.apk" download>Android / Shield (APK)<small>v0.3.0</small></a>
+        <a class="btn secondary" href="/Clones-PC.exe" download>Windows PC (portable)<small>v0.3.0</small></a>
+      </div>
+      <div class="note">
+        <p><strong>Android phone:</strong> after downloading, allow <strong>Install unknown apps</strong> for your browser or file manager when prompted (Settings &rarr; Apps &rarr; Special app access &rarr; Install unknown apps), then open the APK.</p>
+        <p><strong>Shield / Fire TV:</strong> install the <strong>Downloader</strong> app, enable Install unknown apps for it, then enter <code>ruboneoff.xyz/Clones.apk</code>.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+<footer>ruboneoff.xyz</footer>
+</body>
+</html>
