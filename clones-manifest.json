@@ -1,0 +1,76 @@
+{
+  "latestVersionCode": 13,
+  "latestVersionName": "0.3.6",
+  "latestPcVersionName": "0.3.7",
+  "latestBuildNumber": 13,
+  "required": false,
+  "minVersionCode": 0,
+  "minVersionName": "0.0.0",
+  "apkUrl": "https://ruboneoff.xyz/Clones.apk",
+  "apkSha256": "a9a1533eaa4ef15a3ea8856dd1caecc679ef1218cece22397f4a4287d17eadd6",
+  "apkSize": 34300073,
+  "apkFileName": "Clones.apk",
+  "exeUrl": "https://ruboneoff.xyz/Clones-PC.exe",
+  "exeSha256": "723d8f1268d02328f5ae5cd750930c3228eb0af3e6205aac55278ab02fb55f70",
+  "exeSize": 80706297,
+  "exeFileName": "Clones-PC.exe",
+  "platforms": {
+    "phone": {
+      "name": "Clones",
+      "fileName": "Clones.apk",
+      "versionName": "0.3.6",
+      "versionCode": 13,
+      "url": "https://ruboneoff.xyz/Clones.apk",
+      "sha256": "a9a1533eaa4ef15a3ea8856dd1caecc679ef1218cece22397f4a4287d17eadd6",
+      "size": 34300073
+    },
+    "tv": {
+      "name": "Clones",
+      "fileName": "Clones.apk",
+      "versionName": "0.3.6",
+      "versionCode": 13,
+      "url": "https://ruboneoff.xyz/Clones.apk",
+      "sha256": "a9a1533eaa4ef15a3ea8856dd1caecc679ef1218cece22397f4a4287d17eadd6",
+      "size": 34300073
+    },
+    "pc": {
+      "name": "Clones",
+      "fileName": "Clones-PC.exe",
+      "versionName": "0.3.7",
+      "buildNumber": 13,
+      "url": "https://ruboneoff.xyz/Clones-PC.exe",
+      "sha256": "723d8f1268d02328f5ae5cd750930c3228eb0af3e6205aac55278ab02fb55f70",
+      "size": 80706297
+    }
+  },
+  "notes": [
+    {
+      "versionCode": 13,
+      "versionName": "0.3.6",
+      "pcVersionName": "0.3.7",
+      "date": "2026-10-04",
+      "title": "Thank You to All Testers!!!",
+      "subtitle": "Release v{version}",
+      "sections": [
+        {
+          "heading": "STABILITY",
+          "notes": [
+            "Fixed crashes caused by fast scrolling",
+            "Fixed the device going to sleep during playback",
+            "Added a power button to the Home screen to stop all active streams",
+            "Improved playback stability",
+            "Added region or city labels to Network channels (where available)"
+          ]
+        },
+        {
+          "heading": "COSMETICS",
+          "notes": [
+            "Final build interface visuals",
+            "Selectable themes in Settings",
+            "Patch Notes and version label on the Home screen"
+          ]
+        }
+      ]
+    }
+  ]
+}
