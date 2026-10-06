@@ -10,7 +10,7 @@
   // GitHub Pages paths are case-sensitive: ruboneoff.xyz/clones.apk (TV keyboards often type lower case) would 404.
   // Send the known downloads to their real names.
   (function () {
-    var map = { '/clones.apk': '/Clones.apk', '/clones-pc.exe': '/Clones-PC.exe', '/clones-manifest.json': '/clones-manifest.json', '/apk': '/Clones.apk' };
+    var map = { '/clones.apk': '/Clones.apk', '/clones-pc.exe': '/Clones-PC.exe', '/clones-manifest.json': '/clones-manifest.json' };
     var p = location.pathname.replace(/\/+$/, '').toLowerCase();
     if (map[p] && map[p] !== location.pathname) location.replace(map[p]);
   })();

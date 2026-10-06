@@ -106,13 +106,29 @@
 </main>
 <footer>ruboneoff.xyz</footer>
 <script>
-  // TV / D-pad browsers only: start with the Android button focused so one OK press downloads.
   (function () {
-    var ua = navigator.userAgent || '';
-    // Fire TV (Silk, Downloader and other WebViews) report the model as AFTxxx; then Android TV / Google TV / other TVs.
-    if (!/\bAFT[A-Z0-9]{1,8}\b/.test(ua) && !/Android TV|GoogleTV|BRAVIA|SMART-TV|SmartTV|Tizen|Web0S|CrKey/i.test(ua)) return;
     var a = document.getElementById('dl-apk');
-    if (a) try { a.focus({ preventScroll: true }); } catch (e) { a.focus(); }
+    if (!a) return;
+    function focusApk() { try { a.focus({ preventScroll: true }); } catch (e) { a.focus(); } }
+    // TV / D-pad browsers: start with the Android button focused so one OK press downloads.
+    // Fire TV (Silk, Downloader and other WebViews) report the model as AFTxxx; then Android TV / Google TV / other TVs.
+    var ua = navigator.userAgent || '';
+    if (/\bAFT[A-Z0-9]{1,8}\b/.test(ua) || /Android TV|Google ?TV|Chromecast|CrKey|BRAVIA|SMART-TV|SmartTV|Tizen.*TV|Web0S/i.test(ua)) focusApk();
+    // Fallback for any TV browser the check above misses (or Silk in desktop mode): while nothing has focus, the
+    // first arrow / Enter / D-pad centre goes to the Android button; Enter / centre also starts its download.
+    // Once a link has focus this does nothing, so the browser handles keys (and Tab) as usual: one download per press.
+    var ARROWS = { ArrowUp: 1, ArrowDown: 1, ArrowLeft: 1, ArrowRight: 1, Up: 1, Down: 1, Left: 1, Right: 1 };
+    document.addEventListener('keydown', function (e) {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      var el = document.activeElement;
+      if (el && el !== document.body && el !== document.documentElement) return;
+      var ok = e.key === 'Enter' || e.keyCode === 13 || e.keyCode === 23;
+      var arrow = ARROWS[e.key] === 1 || (e.keyCode >= 37 && e.keyCode <= 40);
+      if (!ok && !arrow) return;
+      e.preventDefault();
+      focusApk();
+      if (ok && !e.repeat) a.click();
+    });
   })();
 </script>
 </body>
