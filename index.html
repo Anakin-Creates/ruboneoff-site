@@ -58,10 +58,13 @@
     font-weight: 700;
     text-decoration: none;
     border: 2px solid var(--accent);
+    touch-action: manipulation;
   }
-  .btn:hover, .btn:focus { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+  .btn:focus { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; }
+  @media (hover: hover) { .btn:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; } }
   .btn.secondary { background: transparent; color: var(--accent); }
-  .btn.secondary:hover, .btn.secondary:focus { background: var(--accent); color: #0b1630; }
+  .btn.secondary:focus { background: var(--accent); color: #0b1630; }
+  @media (hover: hover) { .btn.secondary:hover { background: var(--accent); color: #0b1630; } }
   .btn small { display: block; font-weight: 400; font-size: 0.85rem; opacity: 0.8; }
   .note {
     margin-top: 22px;
@@ -90,8 +93,8 @@
       <h1>Clones</h1>
       <p class="tagline">For Android phones, TVs and streaming devices, and Windows PC.</p>
       <div class="buttons">
-        <a class="btn" href="/Clones.apk" download>Android Phone / TV (APK)<small>v0.3.6</small></a>
-        <a class="btn secondary" href="/Clones-PC.exe" download>Windows PC (portable)<small>v0.3.7</small></a>
+        <a class="btn" id="dl-apk" href="/Clones.apk" type="application/vnd.android.package-archive">Android Phone / TV (APK)<small>v0.3.6</small></a>
+        <a class="btn secondary" id="dl-pc" href="/Clones-PC.exe" download="Clones-PC.exe">Windows PC (portable)<small>v0.3.7</small></a>
       </div>
       <div class="note">
         <p><strong>Android phone:</strong> after downloading, allow <strong>Install unknown apps</strong> for your browser or file manager when prompted (Settings &rarr; Apps &rarr; Special app access &rarr; Install unknown apps), then open the APK.</p>
@@ -102,5 +105,15 @@
   </div>
 </main>
 <footer>ruboneoff.xyz</footer>
+<script>
+  // TV / D-pad browsers only: start with the Android button focused so one OK press downloads.
+  (function () {
+    var ua = navigator.userAgent || '';
+    // Fire TV (Silk, Downloader and other WebViews) report the model as AFTxxx; then Android TV / Google TV / other TVs.
+    if (!/\bAFT[A-Z0-9]{1,8}\b/.test(ua) && !/Android TV|GoogleTV|BRAVIA|SMART-TV|SmartTV|Tizen|Web0S|CrKey/i.test(ua)) return;
+    var a = document.getElementById('dl-apk');
+    if (a) try { a.focus({ preventScroll: true }); } catch (e) { a.focus(); }
+  })();
+</script>
 </body>
 </html>

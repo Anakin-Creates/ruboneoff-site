@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<title>Not found | ruboneoff.xyz</title>
+<script>
+  // GitHub Pages paths are case-sensitive: ruboneoff.xyz/clones.apk (TV keyboards often type lower case) would 404.
+  // Send the known downloads to their real names.
+  (function () {
+    var map = { '/clones.apk': '/Clones.apk', '/clones-pc.exe': '/Clones-PC.exe', '/clones-manifest.json': '/clones-manifest.json', '/apk': '/Clones.apk' };
+    var p = location.pathname.replace(/\/+$/, '').toLowerCase();
+    if (map[p] && map[p] !== location.pathname) location.replace(map[p]);
+  })();
+</script>
+<style>
+  body { background: #0b1630; color: #e6eefc; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; text-align: center; padding: 48px 16px; }
+  a { color: #6ec1ff; font-weight: 700; }
+</style>
+</head>
+<body>
+<p>Page not found.</p>
+<p><a href="/" autofocus>Go to the Clones downloads</a></p>
+</body>
+</html>
