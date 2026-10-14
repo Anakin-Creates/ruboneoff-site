@@ -1,49 +1,88 @@
 {
-  "latestVersionCode": 13,
-  "latestVersionName": "0.3.6",
+  "latestVersionCode": 43,
+  "latestVersionName": "0.3.7",
   "latestPcVersionName": "0.3.7",
-  "latestBuildNumber": 13,
+  "latestBuildNumber": 17,
   "required": false,
   "minVersionCode": 0,
   "minVersionName": "0.0.0",
   "apkUrl": "https://ruboneoff.xyz/Clones.apk",
-  "apkSha256": "00fe7640144b48667bf01fa53790de976455d5638392ebb1232c3bfd6150341e",
-  "apkSize": 14064677,
+  "apkSha256": "1874a59fd8113c969e02dcfa80450746fc7e0ad53eee5dd965c1714e5542370b",
+  "apkSize": 14442601,
   "apkFileName": "Clones.apk",
   "exeUrl": "https://ruboneoff.xyz/Clones-PC.exe",
-  "exeSha256": "723d8f1268d02328f5ae5cd750930c3228eb0af3e6205aac55278ab02fb55f70",
-  "exeSize": 80706297,
+  "exeSha256": "55c4a0b65398d6fcdc29f3933dc76731b02ee317a8a9de408a8141987733fbf6",
+  "exeSize": 80808051,
   "exeFileName": "Clones-PC.exe",
   "platforms": {
     "phone": {
       "name": "Clones",
       "fileName": "Clones.apk",
-      "versionName": "0.3.6",
-      "versionCode": 13,
+      "versionName": "0.3.7",
+      "versionCode": 43,
       "url": "https://ruboneoff.xyz/Clones.apk",
-      "sha256": "00fe7640144b48667bf01fa53790de976455d5638392ebb1232c3bfd6150341e",
-      "size": 14064677
+      "sha256": "1874a59fd8113c969e02dcfa80450746fc7e0ad53eee5dd965c1714e5542370b",
+      "size": 14442601
     },
     "tv": {
       "name": "Clones",
       "fileName": "Clones.apk",
-      "versionName": "0.3.6",
-      "versionCode": 13,
+      "versionName": "0.3.7",
+      "versionCode": 43,
       "url": "https://ruboneoff.xyz/Clones.apk",
-      "sha256": "00fe7640144b48667bf01fa53790de976455d5638392ebb1232c3bfd6150341e",
-      "size": 14064677
+      "sha256": "1874a59fd8113c969e02dcfa80450746fc7e0ad53eee5dd965c1714e5542370b",
+      "size": 14442601
     },
     "pc": {
       "name": "Clones",
       "fileName": "Clones-PC.exe",
       "versionName": "0.3.7",
-      "buildNumber": 13,
+      "buildNumber": 17,
       "url": "https://ruboneoff.xyz/Clones-PC.exe",
-      "sha256": "723d8f1268d02328f5ae5cd750930c3228eb0af3e6205aac55278ab02fb55f70",
-      "size": 80706297
+      "sha256": "55c4a0b65398d6fcdc29f3933dc76731b02ee317a8a9de408a8141987733fbf6",
+      "size": 80808051
     }
   },
   "notes": [
+    {
+      "versionCode": "43d",
+      "versionName": "0.3.7",
+      "pcVersionName": "0.3.7",
+      "date": "2026-10-13",
+      "title": "Patch Notes",
+      "sections": [
+        {
+          "heading": "",
+          "notes": [
+            "Stability",
+            "Enabled Permissions to read HDD for Local media on capable devices."
+          ]
+        },
+        {
+          "heading": "Known Issues:",
+          "notes": [
+            "Channel Scroll may cause slight stutter in Viewing Pane"
+          ]
+        }
+      ]
+    },
+    {
+      "versionCode": [
+        17
+      ],
+      "versionName": "0.3.7",
+      "pcVersionName": "0.3.7",
+      "date": "2026-10-13",
+      "title": "Patch Notes",
+      "sections": [
+        {
+          "heading": "",
+          "notes": [
+            "Stability"
+          ]
+        }
+      ]
+    },
     {
       "versionCode": 13,
       "versionName": "0.3.6",
