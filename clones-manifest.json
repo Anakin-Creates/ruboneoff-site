@@ -2,7 +2,7 @@
   "latestVersionCode": 45,
   "latestVersionName": "0.3.7",
   "latestPcVersionName": "0.3.7",
-  "latestBuildNumber": 17,
+  "latestBuildNumber": 23,
   "required": false,
   "minVersionCode": 0,
   "minVersionName": "0.0.0",
@@ -11,8 +11,8 @@
   "apkSize": 14741877,
   "apkFileName": "Clones.apk",
   "exeUrl": "https://ruboneoff.xyz/Clones-PC.exe",
-  "exeSha256": "55c4a0b65398d6fcdc29f3933dc76731b02ee317a8a9de408a8141987733fbf6",
-  "exeSize": 80808051,
+  "exeSha256": "2e03a6bef8e5222411ac450f0e78c9799c1ca10705e91863e1601c12e7213c0a",
+  "exeSize": 98813365,
   "exeFileName": "Clones-PC.exe",
   "platforms": {
     "phone": {
@@ -37,10 +37,10 @@
       "name": "Clones",
       "fileName": "Clones-PC.exe",
       "versionName": "0.3.7",
-      "buildNumber": 17,
+      "buildNumber": 23,
       "url": "https://ruboneoff.xyz/Clones-PC.exe",
-      "sha256": "55c4a0b65398d6fcdc29f3933dc76731b02ee317a8a9de408a8141987733fbf6",
-      "size": 80808051
+      "sha256": "2e03a6bef8e5222411ac450f0e78c9799c1ca10705e91863e1601c12e7213c0a",
+      "size": 98813365
     }
   },
   "notes": [
@@ -56,6 +56,30 @@
           "notes": [
             "Stability",
             "Back button: from channels goes to Categories, press again to go to the main screen"
+          ]
+        },
+        {
+          "heading": "Known Issues:",
+          "notes": [
+            "None Reported"
+          ]
+        }
+      ]
+    },
+    {
+      "versionCode": [
+        23
+      ],
+      "versionName": "0.3.7",
+      "pcVersionName": "0.3.7",
+      "date": "2026-10-20",
+      "title": "Patch Notes",
+      "sections": [
+        {
+          "heading": "",
+          "notes": [
+            "Stability",
+            "General stability improvements"
           ]
         },
         {
