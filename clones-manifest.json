@@ -1,5 +1,5 @@
 {
-  "latestVersionCode": 45,
+  "latestVersionCode": 46,
   "latestVersionName": "0.3.7",
   "latestPcVersionName": "0.3.7",
   "latestBuildNumber": 23,
@@ -7,8 +7,8 @@
   "minVersionCode": 0,
   "minVersionName": "0.0.0",
   "apkUrl": "https://ruboneoff.xyz/Clones.apk",
-  "apkSha256": "97fe725699daf77effb7f4d74c4865466655ea2ea8c45ef7cdee60eada71f32b",
-  "apkSize": 14741877,
+  "apkSha256": "a114e13f004e43328aaa4d5a04268ae22ec206685e7aaad687b0d5d5023f6d61",
+  "apkSize": 14741025,
   "apkFileName": "Clones.apk",
   "exeUrl": "https://ruboneoff.xyz/Clones-PC.exe",
   "exeSha256": "2e03a6bef8e5222411ac450f0e78c9799c1ca10705e91863e1601c12e7213c0a",
@@ -19,19 +19,19 @@
       "name": "Clones",
       "fileName": "Clones.apk",
       "versionName": "0.3.7",
-      "versionCode": 45,
+      "versionCode": 46,
       "url": "https://ruboneoff.xyz/Clones.apk",
-      "sha256": "97fe725699daf77effb7f4d74c4865466655ea2ea8c45ef7cdee60eada71f32b",
-      "size": 14741877
+      "sha256": "a114e13f004e43328aaa4d5a04268ae22ec206685e7aaad687b0d5d5023f6d61",
+      "size": 14741025
     },
     "tv": {
       "name": "Clones",
       "fileName": "Clones.apk",
       "versionName": "0.3.7",
-      "versionCode": 45,
+      "versionCode": 46,
       "url": "https://ruboneoff.xyz/Clones.apk",
-      "sha256": "97fe725699daf77effb7f4d74c4865466655ea2ea8c45ef7cdee60eada71f32b",
-      "size": 14741877
+      "sha256": "a114e13f004e43328aaa4d5a04268ae22ec206685e7aaad687b0d5d5023f6d61",
+      "size": 14741025
     },
     "pc": {
       "name": "Clones",
@@ -44,6 +44,28 @@
     }
   },
   "notes": [
+    {
+      "versionCode": "46d",
+      "versionName": "0.3.7",
+      "pcVersionName": "0.3.7",
+      "date": "2026-10-20",
+      "title": "Patch Notes",
+      "sections": [
+        {
+          "heading": "",
+          "notes": [
+            "Stability",
+            "General stability improvements"
+          ]
+        },
+        {
+          "heading": "Known Issues:",
+          "notes": [
+            "None Reported"
+          ]
+        }
+      ]
+    },
     {
       "versionCode": "45d",
       "versionName": "0.3.7",
