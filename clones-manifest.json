@@ -1,5 +1,5 @@
 {
-  "latestVersionCode": 58,
+  "latestVersionCode": 59,
   "latestVersionName": "0.3.7",
   "latestPcVersionName": "0.3.7",
   "latestBuildNumber": 24,
@@ -7,8 +7,8 @@
   "minVersionCode": 0,
   "minVersionName": "0.0.0",
   "apkUrl": "https://ruboneoff.xyz/Clones.apk",
-  "apkSha256": "6108c4fbc59d1bb8c7fc24611010472a57f0697c3164f0d9221e32a222f68c7a",
-  "apkSize": 14807036,
+  "apkSha256": "b57e3a5aa3e9fc6f66f5ac8697d787abb074ccf736e8bb5d0a9f8870aab30110",
+  "apkSize": 14806573,
   "apkFileName": "Clones.apk",
   "exeUrl": "https://ruboneoff.xyz/Clones-PC.exe",
   "exeSha256": "44fc9a53c8a28b63725d5f6840a23d6c4c2622aa1f6a685a4d893f275e641b57",
@@ -19,19 +19,19 @@
       "name": "Clones",
       "fileName": "Clones.apk",
       "versionName": "0.3.7",
-      "versionCode": 58,
+      "versionCode": 59,
       "url": "https://ruboneoff.xyz/Clones.apk",
-      "sha256": "6108c4fbc59d1bb8c7fc24611010472a57f0697c3164f0d9221e32a222f68c7a",
-      "size": 14807036
+      "sha256": "b57e3a5aa3e9fc6f66f5ac8697d787abb074ccf736e8bb5d0a9f8870aab30110",
+      "size": 14806573
     },
     "tv": {
       "name": "Clones",
       "fileName": "Clones.apk",
       "versionName": "0.3.7",
-      "versionCode": 58,
+      "versionCode": 59,
       "url": "https://ruboneoff.xyz/Clones.apk",
-      "sha256": "6108c4fbc59d1bb8c7fc24611010472a57f0697c3164f0d9221e32a222f68c7a",
-      "size": 14807036
+      "sha256": "b57e3a5aa3e9fc6f66f5ac8697d787abb074ccf736e8bb5d0a9f8870aab30110",
+      "size": 14806573
     },
     "pc": {
       "name": "Clones",
@@ -45,6 +45,28 @@
   },
   "notes": [
     {
+      "versionCode": "59d",
+      "versionName": "0.3.7",
+      "pcVersionName": "0.3.7",
+      "date": "2026-10-24",
+      "title": "Patch Notes",
+      "sections": [
+        {
+          "heading": "",
+          "notes": [
+            "Stability",
+            "Volume Boost in Settings (100\u2013200%)"
+          ]
+        },
+        {
+          "heading": "Known Issues:",
+          "notes": [
+            "None Reported"
+          ]
+        }
+      ]
+    },
+    {
       "versionCode": "58d",
       "versionName": "0.3.7",
       "pcVersionName": "0.3.7",
@@ -55,7 +77,7 @@
           "heading": "",
           "notes": [
             "Stability",
-            "Volume Boost in Settings (100–200%)"
+            "Volume Boost in Settings (100\u2013200%)"
           ]
         },
         {
