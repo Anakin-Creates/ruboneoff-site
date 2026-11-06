@@ -48,17 +48,13 @@
       "versionCode": 73,
       "versionName": "0.3.7",
       "pcVersionName": "0.3.7",
-      "date": "2026-11-06",
+      "date": "2026-10-30",
       "title": "Patch Notes",
       "sections": [
         {
           "heading": "",
           "notes": [
             "Stability",
-            "Movie info for Local Media (opt-in)",
-            "Watch List and Continue Watching Back fixes",
-            "TV Shows Back returns to the opened show",
-            "Sign-in accepts a friendly name on a fresh device",
             "Server connection improvements"
           ]
         },
